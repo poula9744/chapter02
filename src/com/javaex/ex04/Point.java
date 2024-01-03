@@ -10,14 +10,14 @@ public class Point {
 	
 	//메소드 - g/s
 	
-	//getter
+	//setter
 	public void setX(int x) {
 		this.x = x;
 	}	
 	public void setY(int y) {
 		this.y = y;
 	}
-	//setter
+	//getter
 	public int getX() {
 		return this.x;
 	}

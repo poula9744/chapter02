@@ -4,43 +4,43 @@ public class SongApp {
 
 	public static void main(String[] args) {
 		
-		//아이유
+		//s1
+		Song s1 = new Song();
 		
-		Song a = new Song();
+		s1.setTitle("좋은날");
+		s1.setArtist("아이유");
+		s1.setAlbum("Real");
+		s1.setComposer("이민수");
+		s1.setYear(2010);
+		s1.setTrack(3);
 		
-		a.setTitle("좋은날");
-		a.setArtist("아이유");
-		a.setAlbum("Real");
-		a.setComposer("이민수");
-		a.setYear(2010);
-		a.setTrack(3);
 		
 		//빅뱅
+		Song s2 = new Song();
 		
-		Song b = new Song();
+		s2.setTitle("거짓말");
+		s2.setArtist("BIGBANG");
+		s2.setAlbum("Always");
+		s2.setComposer("G-DRAGON");
+		s2.setYear(2007);
+		s2.setTrack(2);
 		
-		b.setTitle("거짓말");
-		b.setArtist("BIGBANG");
-		b.setAlbum("Always");
-		b.setComposer("G-DRAGON");
-		b.setYear(2007);
-		b.setTrack(2);
 		
 		//버스커버스커
+		Song s3 = new Song();
 		
-		Song c = new Song();
+		s3.setTitle("벚꽃엔딩");
+		s3.setArtist("버스커버스커");
+		s3.setAlbum("버스커버스커1집");
+		s3.setComposer("장범준");
+		s3.setYear(2012);
+		s3.setTrack(4);
 		
-		c.setTitle("벚꽃엔딩");
-		c.setArtist("버스커버스커");
-		c.setAlbum("버스커버스커1집");
-		c.setComposer("장범준");
-		c.setYear(2012);
-		c.setTrack(4);
 		
 		//출력
-		a.showInfo();
-		b.showInfo();
-		c.showInfo();
+		s1.showInfo();
+		s2.showInfo();
+		s3.showInfo();
 		
 	}
 

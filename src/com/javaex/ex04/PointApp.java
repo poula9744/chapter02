@@ -4,22 +4,25 @@ public class PointApp {
 
 	public static void main(String[] args) {
 		
-		//A
-		Point A = new Point();
+		//p2
+		Point p1 = new Point();
 
-		A.setX(5);
-		A.setY(5);
+		p1.setX(5);
+		p1.setY(5);
+	
 		
-		A.draw();
+		
+		//p2
+		Point p2 = new Point();
+		
+		p2.setX(10);
+		p2.setY(23);
 		
 		
-		//B
-		Point B = new Point();
 		
-		B.setX(10);
-		B.setY(23);
-		
-		B.draw();
+		//출력
+		p1.draw();
+		p2.draw();
 
 	}
 
