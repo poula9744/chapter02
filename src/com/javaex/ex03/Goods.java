@@ -12,6 +12,16 @@ public class Goods {
 	//메소드 - g/s
 
 	
+	/*
+	 * public void setName(String n) {
+		name = n;
+		} n이라고 하면 알아보기 어려움 
+	 *  name으로 바꾸면, 
+	 *  name = name은 혼동이 있어서 
+	 *  this.name으로 바꿔줌 
+	 *  this.name은 computer.name / camera.name 등 이다.
+	 */
+	
 	public void setName(String name) {
 		this.name = name;
 	} //this는 헷갈릴까봐 쓰는 용도
