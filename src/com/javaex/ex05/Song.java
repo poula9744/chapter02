@@ -3,12 +3,12 @@ package com.javaex.ex05;
 public class Song {
 	
 	//필드
-	String title;
-	String artist;
-	String album;
-	String composer;
-	int year;
-	int track;
+	private String title;
+	private String artist;
+	private String album;
+	private String composer;
+	private int year;
+	private int track;
 	
 	//연산자
 	
