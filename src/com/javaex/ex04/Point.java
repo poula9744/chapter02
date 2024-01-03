@@ -3,8 +3,8 @@ package com.javaex.ex04;
 public class Point {
 
 	//필드 
-	int x;
-	int y;
+	private int x;
+	private int y;
 	
 	//생성자
 	
