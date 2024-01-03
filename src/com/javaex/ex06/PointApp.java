@@ -10,30 +10,30 @@ public class PointApp {
 		
 		Point p1 = new Point();
 		
-		p1.x=(0);
-		p1.y=(5.8);
-		p1.z=(5.8);
+		p1.setX(0);
+		p1.setY(5.8);
+		p1.setZ(5.8);
 		
 		//p2
 		Point p2 = new Point();
 		
-		p2.x=(9.1);
-		p2.y=(8.8);
-		p2.z=(10);
+		p2.setX(9.1);
+		p2.setY(8.8);
+		p2.setZ(10);
 		
 		//p3
 		Point p3 = new Point();
-		p3.x=(2.3);
-		p3.y=(1.1);
-		p3.z=(0.6);
+		p3.setX(2.3);
+		p3.setY(1.1);
+		p3.setZ(0.6);
 		
 		//p4
 		Point p4 = new Point();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("x, y, z 값을 각각 입력하시오.");
-		p4.x = sc.nextDouble();
-		p4.y = sc.nextDouble();
-		p4.z = sc.nextDouble();
+		p4.setX(sc.nextDouble());
+		p4.setY(sc.nextDouble());
+		p4.setZ(sc.nextDouble());
 		
 
 		

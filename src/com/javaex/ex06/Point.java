@@ -3,9 +3,9 @@ package com.javaex.ex06;
 public class Point {
 	
 	//필드
-	double x;
-	double y;
-	double z;
+	private double x;
+	private double y;
+	private double z;
 	
 	//연산자
 	
