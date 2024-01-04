@@ -18,6 +18,7 @@ public class PointApp {
 		p0.draw();
 		p1.draw();
 		p2.draw();
+		
 	}
 
 }
