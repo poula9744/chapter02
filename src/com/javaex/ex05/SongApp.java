@@ -15,7 +15,7 @@ public class SongApp {
 		s1.setTrack(3);
 		
 		
-		//빅뱅
+		//s2
 		Song s2 = new Song();
 		
 		s2.setTitle("거짓말");
@@ -26,7 +26,7 @@ public class SongApp {
 		s2.setTrack(2);
 		
 		
-		//버스커버스커
+		//s3
 		Song s3 = new Song();
 		
 		s3.setTitle("벚꽃엔딩");

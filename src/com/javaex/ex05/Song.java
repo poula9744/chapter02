@@ -14,6 +14,7 @@ public class Song {
 	
 	//메소드 - g/s
 	//setter
+	
 	public void setTitle(String title) {
 		this.title = title;
 	}
