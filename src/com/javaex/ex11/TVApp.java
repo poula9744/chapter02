@@ -14,9 +14,18 @@ public class TVApp {
 		tv.volume(false);
 		tv.status();
 		tv.volume(true);
+		tv.volume(-1);
+		tv.status();
+		tv.volume(true);
+		tv.status();
+		tv.volume(101);
 		tv.status();
 		
 		tv.channel(0);
+		tv.status();
+		tv.channel(300);
+		tv.status();
+		tv.channel(-100);
 		tv.status();
 		
 		tv.channel(true);

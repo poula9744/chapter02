@@ -47,6 +47,8 @@ public class TV {
 	public void volume(int volume) {
 		if (volume >= 0 && volume <= 100) {
 			this.volume = volume;
+		} else if(volume <0){
+			this.volume = 0;
 		} else {
 			this.volume = 100;
 		}
@@ -69,7 +71,11 @@ public class TV {
 		public void channel(int channel) {
 			if (channel >= 1 && channel <= 255) {
 				this.channel = channel;
-			} 
+			} else if(channel <1) {
+				this.channel = 1;
+			} else {
+				this.channel = 255;
+			}
 		}
 		
 	//채널 1씩 증감	
