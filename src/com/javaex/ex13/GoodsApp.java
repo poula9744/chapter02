@@ -1,6 +1,14 @@
 package com.javaex.ex13;
 
 public class GoodsApp {
+	
+	//필드
+	
+	//생성자
+	
+	//메소드 - g/s
+	
+	//메소드 - 일반
 
 	public static void main(String[] args) {
 		
