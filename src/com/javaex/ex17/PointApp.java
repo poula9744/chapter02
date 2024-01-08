@@ -9,6 +9,8 @@ public class PointApp {
 		
 		System.out.println(p.toString());
 		p.showInfo();
+		//p.x; --> protected는 자식 외에는 안됨
+		//p.setX(3); --> 은 가능
 		
 		System.out.println("-------------------------------");
 		

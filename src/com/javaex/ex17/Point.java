@@ -3,7 +3,7 @@ package com.javaex.ex17;
 public class Point {
 	
 	//필드
-	private int x;
+	protected int x;
 	private int y;
 	
 	//생성자

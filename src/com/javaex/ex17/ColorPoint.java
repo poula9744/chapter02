@@ -39,9 +39,9 @@ public class ColorPoint extends Point {
 	//부모 메소드를 사용하고 싶다면, 지우거나 다른 이름으로 만들기
 	
 	public void showInfo() {
-		System.out.println("x는 "+ getX() + "이고, y는 " + getY() + "이고, 색은 " + color + "이다");
+		System.out.println("x는 "+ super.x + "이고, y는 " + super.getY() + "이고, 색은 " + color + "이다");
 	}
-	
+	//부모에 protected를 사용하면 자식이 getX()가 아니라 x로 사용할 수 있음
 	
 	
 }
