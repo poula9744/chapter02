@@ -1,4 +1,4 @@
-package com.javaex.ex20;
+package com.javaex.ex21;
 
 public class ShapeApp {
 
@@ -30,6 +30,9 @@ public class ShapeApp {
 		//원래는 shape인데 강제로 Ractangle, Triangle로 변경
 		System.out.println(((Rectangle)sArray[0]).getWidth());
 		System.out.println(((Triangle)sArray[1]).getWidth());
+	
+		for(int i = 0; i<sArray.length; i++) {
+			System.out.println(sArray[i].area());       //오버라이딩 
+		}
 	}
-
 }
